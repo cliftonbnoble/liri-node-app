@@ -1,2 +1,2 @@
 # liri-node-app
-SIRI but not smart
+Like a really dumb siri
