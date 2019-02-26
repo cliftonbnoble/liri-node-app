@@ -10,6 +10,8 @@ var moment = require("moment")
 let userSubmission = process.argv[2]
 let userWords = process.argv.slice(3)
 let userInput = userWords.join(" ")
+//variable to capture spotify object
+let logObj = {}
 //If else statment to take in users request.  Could have also used a switch statement here
 if (userSubmission === 'concert-this') {
     concertThis()
@@ -75,6 +77,15 @@ function movieThis() {
           console.log("Language: " + response.data.Language);
           console.log("Plot of the Movie: " +response.data.Plot);
           console.log("Actors: " + response.data.Actors);
+          logObj.title = response.data.Title
+          logObj.year = response.data.Year
+          logObj.imdbRating = response.data.imdbRating
+          logObj.Metascore = response.data.Metascore
+          logObj.Country = response.data.Country
+          logObj.Language = response.data.Language
+          logObj.Plot = response.data.Plot
+          logObj.Actors = response.data.Actors
+          appendToFile(JSON.stringify(logObj));
         }
       );
 //Function to grab text from random.txt file
@@ -100,4 +111,17 @@ function doWhatItSays() {
               break;
           }
       });
+}
+function appendToFile(text){
+  fs.appendFile("log.txt", text + "\n", function(err) {
+
+    // If an error was experienced we will log it.
+    if (err) {
+      console.log(err);
+    }
+    // If no error is experienced, we'll log the phrase "Content Added" to our node console.
+    else {
+      console.log("Content Added!");
+    }
+  });
 }

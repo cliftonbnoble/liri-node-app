@@ -1,0 +1,3 @@
+{}
+{"title":"Cars","year":"2006","imdbRating":"7.1","Metascore":"73","Country":"USA","Language":"English, Italian, Japanese, Yiddish","Plot":"A hot-shot race-car named Lightning McQueen gets waylaid in Radiator Springs, where he finds the true meaning of friendship and family.","Actors":"Owen Wilson, Paul Newman, Bonnie Hunt, Larry the Cable Guy"}
+{"title":"Snatch","year":"2000","imdbRating":"8.3","Metascore":"55","Country":"UK, USA","Language":"English, Russian","Plot":"Unscrupulous boxing promoters, violent bookmakers, a Russian gangster, incompetent amateur robbers and supposedly Jewish jewelers fight to track down a priceless stolen diamond.","Actors":"Benicio Del Toro, Dennis Farina, Vinnie Jones, Brad Pitt"}

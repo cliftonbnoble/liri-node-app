@@ -35,3 +35,7 @@ Liri is a text based smart assistant.  His abilities at the moment are limited t
 ### Video Demonstration
   
 [click here for a demo](https://drive.google.com/file/d/1LJ-pXLn7InjuVbxN7pBy2lVHp41QTtCr/view?usp=sharing),
+
+### Bonus
+
+Bonus feature added after the video.  Please take a look at the snapshot for the appendFile bonus.  Added to movie-this.  Appends an object.  Cars and Snatch have been added.  Each additional movie search will be added.
